@@ -1,0 +1,32 @@
+{
+  "name": "nibble-backend",
+  "version": "1.0.0",
+  "description": "Server for Nibble",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drageniix/nibble-backend.git"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.3",
+    "express-validator": "^5.3.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.4.1",
+    "socket.io": "^2.2.0"
+  },
+  "author": "Ashley Barrow",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
